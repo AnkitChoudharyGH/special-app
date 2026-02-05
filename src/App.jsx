@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import p1 from './photos/photo1.jpeg'
-import p2 from './photos/photo2.jpeg'
-import p3 from './photos/photo3.jpeg'
-import p4 from './photos/photo4.jpeg'
-import p5 from './photos/photo5.jpeg'
-import p6 from './photos/photo6.jpeg'
-import p7 from './photos/photo7.jpeg'
-import p8 from './photos/photo8.jpeg'
+import photo1 from './photos/photo1.jpeg'
+import photo2 from './photos/photo2.jpeg'
+import photo3 from './photos/photo3.jpeg'
+import photo4 from './photos/photo4.png'
+import photo5 from './photos/photo5.jpeg'
+import photo6 from './photos/photo6.jpeg'
+import photo7 from './photos/photo7.jpeg'
+import photo8 from './photos/photo8.jpeg'
 
 const weekPlan = [
   {
@@ -80,7 +80,7 @@ const petalBursts = Array.from({ length: 22 }).map((_, i) => ({
   rotate: -30 + Math.random() * 60,
 }))
 
-const collageSources = [p1,p2,p3,p4,p5,p6,p7,p8]
+const collageSources = [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8]
 
 const buildCollageFrames = () =>
   collageSources.map((src, i) => ({
