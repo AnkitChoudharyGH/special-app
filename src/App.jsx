@@ -73,7 +73,7 @@ const petalBursts = Array.from({ length: 22 }).map((_, i) => ({
 }))
 
 const collageSources = [
-  'src/photos/photo1.jpeg',
+  './photos/photo1.jpeg',
   'src/photos/photo2.jpeg',
   'src/photos/photo3.jpeg',
   'src/photos/photo4.jpeg',
